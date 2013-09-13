@@ -1,0 +1,1 @@
+Sample project showing that I cannot use xcodebuild to set the NSUserDefaults for a unit test running in the iOS simulator
