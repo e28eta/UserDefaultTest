@@ -1,0 +1,125 @@
+User defaults from command line:
+    MyDefault = MyValue
+
+2013-09-12 18:56:22.505 xcodebuild[90477:1207] [MT] DVTAssertions: Warning in /SourceCache/DTDeviceKit/DTDeviceKit-3693.1/DTDeviceKitBase/DTDeviceKitBase_Utilities.m:503
+Details:  Failed to register "/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle" with Launch Services, error code: -10811.
+Function: __RegisterUTIsIfNeeded_block_invoke
+Thread:   <NSThread: 0x7fca4840e540>{name = (null), num = 1}
+Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+=== BUILD TARGET UserDefaultTest OF PROJECT UserDefaultTest WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET UserDefaultTestTests OF PROJECT UserDefaultTest WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+** TEST SUCCEEDED **
+
+2013-09-12 18:56:24.427 UserDefaultTest[90484:a0b] Cannot find executable for CFBundle 0x8ecc320 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2013-09-12 18:56:24.466 UserDefaultTest[90484:a0b] Application windows are expected to have a root view controller at the end of application launch
+Test Suite 'All tests' started at 2013-09-13 01:56:24 +0000
+Test Suite 'UserDefaultTestTests.xctest' started at 2013-09-13 01:56:24 +0000
+Test Suite 'UserDefaultTestTests' started at 2013-09-13 01:56:24 +0000
+Test Case '-[UserDefaultTestTests testExample]' started.
+2013-09-12 18:56:24.491 UserDefaultTest[90484:a0b] NSUserDefaults: {
+    AppleITunesStoreItemKinds =     (
+        artist,
+        eBook
+    );
+    AppleKeyboards =     (
+        "en_US@hw=US;sw=QWERTY",
+        "en_US@hw=US;sw=QWERTY"
+    );
+    AppleKeyboardsExpanded = 1;
+    AppleLanguages =     (
+        en,
+        fr,
+        de,
+        "zh-Hans",
+        "zh-Hant",
+        ja,
+        nl,
+        it,
+        es,
+        "es-MX",
+        ko,
+        pt,
+        "pt-PT",
+        da,
+        fi,
+        nb,
+        sv,
+        ru,
+        pl,
+        tr,
+        uk,
+        ar,
+        hr,
+        cs,
+        el,
+        he,
+        ro,
+        sk,
+        th,
+        id,
+        ms,
+        "en-GB",
+        "en-AU",
+        ca,
+        hu,
+        vi
+    );
+    AppleLocale = "en_US";
+    ApplePersistenceIgnoreState = YES;
+    NSInterfaceStyle = macintosh;
+    NSLanguages =     (
+        en,
+        fr,
+        de,
+        "zh-Hans",
+        "zh-Hant",
+        ja,
+        nl,
+        it,
+        es,
+        "es-MX",
+        ko,
+        pt,
+        "pt-PT",
+        da,
+        fi,
+        nb,
+        sv,
+        ru,
+        pl,
+        tr,
+        uk,
+        ar,
+        hr,
+        cs,
+        el,
+        he,
+        ro,
+        sk,
+        th,
+        id,
+        ms,
+        "en-GB",
+        "en-AU",
+        ca,
+        hu,
+        vi
+    );
+    NSTreatUnknownArgumentsAsOpen = NO;
+    UIDisableLegacyTextView = 1;
+    XCTest = All;
+    XCTestObserverClass = XCTestLog;
+}
+Test Case '-[UserDefaultTestTests testExample]' passed (0.001 seconds).
+Test Suite 'UserDefaultTestTests' finished at 2013-09-13 01:56:24 +0000.
+Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'UserDefaultTestTests.xctest' finished at 2013-09-13 01:56:24 +0000.
+Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'All tests' finished at 2013-09-13 01:56:24 +0000.
+Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
